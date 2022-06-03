@@ -1,0 +1,14 @@
+{"name"                   "Clojure-meetup"
+ :speakers                ["상현" "연오" "종립" "효진" "만영"]
+ :topics                  {"상현" "EDN"
+                           "연오" "Clojure 코드는 정말 읽기 어려운가?"
+                           "종립" "Clojure에 빠진 사람 Vim푸라기라도 잡는다"
+                           "효진" "Functor in Clojure"
+                           "만영" "재미로 보는 Clojure vs Elixir"}
+ :place                   greenlabs
+ "Number-of-participants" 200
+ :tags                    #{"Clojure" "Functional Programming"}
+ :ids                     [#uuid "b8032583-f1ab-48a8-b6fb-465011a73e96"
+                           #uuid "3af43973-0e72-4312-81b0-834cc463d5ef"]
+ :time                    #inst "2022-06-03T01:14:00.000-00:00"
+ :tagged                  #number/even [1 2 3 4 5]}

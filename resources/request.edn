@@ -1,0 +1,4 @@
+{:method       "POST"
+ :content-type "text/plain"
+ :params       {:name #req/name "Sanghyun"
+                :age  #req/age 30}}
