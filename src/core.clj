@@ -6,7 +6,7 @@
 (comment
   (str (java.util.UUID/randomUUID))
 
-  (-> (io/resource "test.edn")
+  (-> (io/resource "tagged.edn")
       (slurp)
       (edn/read-string)
       :time
@@ -19,9 +19,15 @@
       first
       uuid?)
 
+  (-> (io/resource "test.edn")
+      (slurp)
+      (edn/read-string)
+      :integer
+      type)
+
   (edn/read-string
     {:readers {'number/even #(filter even? %)}}
-    (slurp (io/resource "test.edn")))
+    (slurp (io/resource "tagged.edn")))
 
   (edn/read-string
     {:readers {'req/name #(if (> (count %) 100)
