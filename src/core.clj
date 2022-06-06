@@ -22,6 +22,8 @@
   (-> (io/resource "test.edn")
       (slurp)
       (edn/read-string)
+      :time
+      #_#_
       :integer
       type)
 

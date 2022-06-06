@@ -1,11 +1,15 @@
-{"name"                   "Clojure-meetup"
- :speakers                ["상현" "연오" "종립" "효진" "만영"]
- :topics                  {"상현" "EDN"
-                           "연오" "Clojure 코드는 정말 읽기 어려운가?"
-                           "종립" "Clojure에 빠진 사람 Vim푸라기라도 잡는다"
-                           "효진" "Functor in Clojure"
-                           "만영" "재미로 보는 Clojure vs Elixir"}
- :place                   greenlabs
- "Number-of-participants" 200
- :integer                 10000M
- :float                   2.22M}
+{:name                   "Clojure-meetup"
+ :speakers               ["상현" "연오" "종립" "효진" "만영"]
+ :topics                 {"상현" "주제 1"
+                          "연오" "주제 2"
+                          "종립" "주제 3"
+                          "효진" "주제 4"
+                          "만영" "주제 5"}
+ :place                  #{greenlabs}
+ :time                   #inst "2022-06-10T18:00:00.000-00:00"
+ :number-of-participants 220}
+
+
+
+
+
